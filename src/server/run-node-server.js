@@ -6,7 +6,7 @@ const api = require('./routes/api');
 
 const app = express();
 
-const baseDir = path.resolve(__dirname, '../');
+const baseDir = path.resolve(__dirname, '../../');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
