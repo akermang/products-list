@@ -6,5 +6,5 @@ export default {
   primary_selected_text_color: '#fff',
   primary_icon_color: '#cccccc',
   primary_dark: '#40414b',
-  frame_padding: '32px'
+  frame_padding: '18px 32px'
 };
