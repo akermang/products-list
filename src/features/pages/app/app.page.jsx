@@ -24,20 +24,10 @@ class App extends Component {
     const { history, location } = this.props;
     this.initiateData();
 
-    // redirect to homepage if route is empty
     if (location.pathname === ROUTES.empty) {
       history.push(ROUTES.home);
     }
-
-    // set site title on route change
-    // setTitle(ROUTES.home);
-    // history.listen(path => setTitle(path.pathname));
   }
-
-  // onChangeLanguage (language) {
-  //   const { changeLanguage } = this.props;
-  //   changeLanguage(language);
-  // }
 
   initiateData () {
     const {
