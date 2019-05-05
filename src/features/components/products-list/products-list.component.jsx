@@ -39,7 +39,7 @@ const ProductsListComponent = ({ list, onDeleteProduct, onRowClicked }) => {
             field: '',
             headerName: '',
             cellRendererFramework: params => (
-              <Button color="secondary" onClick={() => onDeleteProduct(params.data)}>
+              <Button size="small" color="secondary" onClick={() => onDeleteProduct(params.data)}>
                 DELETE
               </Button>
             )
