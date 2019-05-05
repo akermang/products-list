@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  height: 62vh;
+  height: 60vh;
 
   > div {
     height: 100%;
