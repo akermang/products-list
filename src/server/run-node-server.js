@@ -11,12 +11,12 @@ const baseDir = path.resolve(__dirname, '../');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use(express.static(path.join(baseDir, 'dist')));
+app.use(express.static(path.join(baseDir, 'build')));
 
 app.use('/api', api);
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(baseDir, 'dist', 'index.html'));
+  res.sendFile(path.join(baseDir, 'build', 'index.html'));
 });
 
 const port = process.env.PORT || '3000';
