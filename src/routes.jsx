@@ -5,7 +5,6 @@ import { ThemeProvider } from 'styled-components';
 import App from './features/pages/app/app.page.jsx';
 import DefaultLayout from './features/pages/default-layout/default-layout.page.jsx';
 import HomePage from './features/pages/home/home.page.jsx';
-import AboutPage from './features/pages/about/about.page.jsx';
 import { ROUTES } from './common/constants';
 import DefaultTheme from './assets/themes/default';
 
@@ -18,7 +17,6 @@ const Root = ({ store }) => ({
             <App>
               <Switch>
                 <DefaultLayout path={ROUTES.home} component={HomePage} />
-                <DefaultLayout path={ROUTES.about} component={AboutPage} />
               </Switch>
             </App>
           </Router>

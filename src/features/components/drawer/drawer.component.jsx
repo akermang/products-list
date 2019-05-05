@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import HomeIcon from '@material-ui/icons/Home';
-import DashboardIcon from '@material-ui/icons/Dashboard';
 import { MenuItem } from '@material-ui/core';
 import { NavLink } from 'react-router-dom';
 import { ROUTES } from '../../../common/constants';
@@ -14,15 +13,7 @@ const DrawerComponent = ({ closeDrawer, open }) => (
       <Logo>
         <LogoComponent />
       </Logo>
-
       <DrawerLink to={ROUTES.home} icon={<HomeIcon />} label="home" closeDrawer={closeDrawer} />
-
-      <DrawerLink
-        to={ROUTES.about}
-        icon={<DashboardIcon />}
-        label="about"
-        closeDrawer={closeDrawer}
-      />
     </Wrapper>
   </StyledDrawer>
 );

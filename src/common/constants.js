@@ -4,8 +4,7 @@ export const SUCCESS_SUFFIX = '_SUCCESS';
 
 export const ROUTES = {
   empty: '/',
-  home: '/home',
-  about: '/about'
+  home: '/home'
 };
 
 export const mobileMaxWidth = 1023;
