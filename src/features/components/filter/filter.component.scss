@@ -1,0 +1,31 @@
+@import '../../../assets/scss/variables.scss';
+
+.container{
+  // height: 100%;
+  height: calc(100% - 24px);
+
+  .top{
+    display: flex;
+    justify-content: space-between;    
+
+    .input{
+      margin-bottom: 20px;
+      
+      .icon{
+        color: $primary-icon-color;
+      }
+    }
+  }  
+
+  .pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+}
+
+@media (max-width: 960px) {
+  .input{
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+@import '../../../assets/scss/variables.scss';
+
+.container{
+  td{
+    overflow: auto;
+  }
+  
+  [class*=MuiSelect-select]{
+    width: 30px!important;
+    display: flex;
+    align-items: center;
+  }
+}

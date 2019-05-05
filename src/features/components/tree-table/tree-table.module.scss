@@ -1,0 +1,63 @@
+@import '../../../assets/scss/variables.scss';
+
+.container{
+  height: 100%;
+
+  :global{
+    .ag-group-expanded, .ag-group-contracted{
+      display: flex;
+      align-items: center;
+    }
+
+    .ag-row:hover{
+      cursor: pointer;
+    }
+
+    .ag-cell{
+      user-select: text;
+      border: none!important;
+      white-space: normal!important;
+      display: flex;
+      align-items: center;
+      line-height: 23px!important;
+      color: $table-text-color;
+      font-size: $font-size-regular;
+    }
+
+    .ag-cell-focus{
+      border: none!important;
+    }
+
+    .ag-react-container{
+      position: relative;
+    }
+
+    .ag-cell-label-container:hover{
+      cursor: move;
+    }
+
+    .ag-header-cell-text{
+      text-transform: uppercase;
+      color: $table-header-color;
+      font-size: $font-size-medium;
+      font-weight: 400;
+    }
+
+    .ag-row-selected{
+      background-color: $selected-item-background-color!important;
+    }
+
+    .ag-row-selected .ag-cell{
+      color: $additional-text-color;
+    }
+
+    [class*=ag-row-group-indent] {
+      display: flex;
+    }
+
+    .ag-icon-asc, .ag-icon-desc{
+      position: relative;
+      top: 3px;
+    }
+  }
+}

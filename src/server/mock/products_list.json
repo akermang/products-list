@@ -1,0 +1,38 @@
+[
+    {
+        "id": "10",
+        "name": "PS6",
+        "category": "Toys",
+        "price": 900,
+        "createdDate": "2019-05-05T13:54:55.649Z"
+    },
+    {
+        "id": "11",
+        "name": "Shirt",
+        "category": "Sports",
+        "price": 23,
+        "createdDate": "2019-05-04T13:54:55.649Z"
+    },
+    {
+        "id": "12",
+        "name": "PS2",
+        "category": "Toys",
+        "price": 500,
+        "createdDate": "2019-05-03T13:54:55.649Z"
+    },
+    {
+        "id": "13",
+        "name": "PS5",
+        "category": "Toys",
+        "price": 600,
+        "createdDate": "2019-05-03T13:54:55.649Z"
+    },
+    {
+        "id": "14",
+        "name": "SmartphoneY",
+        "category": "Electronics",
+        "price": 1100,
+        "createdDate": "2019-05-04T13:54:55.649Z"
+    }
+]
+
