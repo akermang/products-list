@@ -9,7 +9,7 @@ const router = express.Router();
 let productsList = require('../mock/products_list.json');
 const categoriesList = require('../mock/categories_list.json');
 
-const serverResponseTime = 400;
+const serverResponseTime = 1;
 
 // Simulate server delayed response
 function send (res, data) {
